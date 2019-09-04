@@ -4,6 +4,7 @@
 Event Driven Applications 
 
 ### Author: Student/Group Name
+Sam Gnuschke
 
 ### Common npm Scripts
  "lint": "eslint **/*.js",  
@@ -19,8 +20,6 @@ Event Driven Applications
 ### Links and Resources
 * [submission PR](http://xyz.com)
 * [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
 
 #### Documentation
 * [api docs](http://xyz.com) (API servers)
@@ -38,9 +37,6 @@ Usage Notes or examples
 Usage Notes or examples
 
 ### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
 
 #### Running the app
 * `npm start`
@@ -53,6 +49,3 @@ Usage Notes or examples
 * How do you run tests?
 * What assertions were made?
 * What assertions need to be / should be made?
-
-#### UML
-Link to an image of the UML for your application and response to events
