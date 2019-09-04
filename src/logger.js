@@ -6,13 +6,14 @@
 const events = require('./events.js');
 
 
+events.on('read', file => log('read', file));
+
 /**
  * Setting up the event that will run when we save a file
  * @param  {} 'save'
  * @param  {} file=>log('save'
  * @param  {} file
  */
-events.on('read', file => log('read', file));
 events.on('save', file=>log('save',file));
 
 

@@ -1,7 +1,7 @@
 'use strict';
 
-const events = require('./events.js');
-require('./logger');
+const events = require('./src/events.js');
+require('./src/logger');
 
 const util = require('util');
 const fs = require('fs');
