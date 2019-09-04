@@ -8,15 +8,15 @@ const fs = require('fs');
 
 /**
  * function is to read our testing file
- * @param  {} fs.readText
+ * @param  {} fs.readFile
  */
-const readText = util.promisify(fs.readText)
+const readText = util.promisify(fs.readFile)
 
 /**
  * function is to write out the file name and the text that is inside of the file
  * @param  {} fs.readText
  */
-const writeFile = util.promisify(fs.readText)
+const writeFile = util.promisify(fs.readFile)
 
 
 const alterFile = (file) => {
